@@ -12,7 +12,7 @@ export const ImageContents = memo(({ index, url }) => {
   const childrenText = index % 2 === 0 ? "From right" : "From left";
   useEffect(() => {
     const toRight = [
-      { x: -600, autoAlpha: 0 },
+      { x: -60, autoAlpha: 0 },
       {
         x: 0,
         duration: 1.5,
@@ -25,7 +25,7 @@ export const ImageContents = memo(({ index, url }) => {
     ];
     const toLeft = [
       {
-        x: 600,
+        x: 60,
         autoAlpha: 0,
       },
       {
@@ -66,7 +66,7 @@ export const ImageContents = memo(({ index, url }) => {
       <Flex
         bgImage={url}
         backgroundAttachment='fixed'
-        w='100vw'
+        w='100%'
         h='100vh'
         color='white'
         backgroundSize='cover'
@@ -85,7 +85,7 @@ export const ImageContents = memo(({ index, url }) => {
         justifyContent='center'>
         <Flex
           ref={box}
-          w={{ base: "100%", md: "100vw" }}
+          w={{ base: "60%", md: "70%" }}
           alignItems='center'
           justifyContent='center'
           flexDirection={{ base: "column", md: direction }}>
@@ -95,7 +95,7 @@ export const ImageContents = memo(({ index, url }) => {
             my='auto'
             src={url}
             alt='cute dog'
-            w='100%'
+            w={{ base: "100%", md: "50%" }}
             maxHeight={800}
           />
           <Center w='100%'>

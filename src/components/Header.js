@@ -13,7 +13,7 @@ export const Header = memo(() => {
     });
   }, [p]);
   return (
-    <Flex w='100vw' h='100vh' justifyContent='center' alignItems='center'>
+    <Flex w='100%' h='100vh' justifyContent='center' alignItems='center'>
       <Center
         ref={p}
         as='header'
