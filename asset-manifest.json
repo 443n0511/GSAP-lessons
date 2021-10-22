@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.js": "/GSAP-lessons/static/js/main.7be69b97.chunk.js",
+    "main.js.map": "/GSAP-lessons/static/js/main.7be69b97.chunk.js.map",
+    "runtime-main.js": "/GSAP-lessons/static/js/runtime-main.82ffe15e.js",
+    "runtime-main.js.map": "/GSAP-lessons/static/js/runtime-main.82ffe15e.js.map",
+    "static/js/2.d8b3d5dc.chunk.js": "/GSAP-lessons/static/js/2.d8b3d5dc.chunk.js",
+    "static/js/2.d8b3d5dc.chunk.js.map": "/GSAP-lessons/static/js/2.d8b3d5dc.chunk.js.map",
+    "index.html": "/GSAP-lessons/index.html",
+    "static/js/2.d8b3d5dc.chunk.js.LICENSE.txt": "/GSAP-lessons/static/js/2.d8b3d5dc.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.82ffe15e.js",
+    "static/js/2.d8b3d5dc.chunk.js",
+    "static/js/main.7be69b97.chunk.js"
+  ]
+}
