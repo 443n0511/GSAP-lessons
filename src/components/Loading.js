@@ -1,6 +1,5 @@
-import React, { useEffect, memo } from "react";
-import { Center, Text } from "@chakra-ui/react";
-import { gsap } from "gsap";
+import React, { memo } from "react";
+import { Center } from "@chakra-ui/react";
 import Loader from "react-loader-spinner";
 
 export const Loading = memo(() => {

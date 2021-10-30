@@ -1,9 +1,9 @@
-import React, { useEffect, memo } from "react";
+import React, { useEffect, memo, useRef } from "react";
 import { Center, Text, Flex } from "@chakra-ui/react";
 import { gsap } from "gsap";
 
 export const Header = memo(() => {
-  const p = React.createRef();
+  const p = useRef();
 
   useEffect(() => {
     gsap.to(p.current, {

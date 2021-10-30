@@ -1,6 +1,6 @@
 import { useRef, useEffect, memo } from "react";
 import { gsap } from "gsap";
-import { Image, Center, Text, Flex, Spacer } from "@chakra-ui/react";
+import { Image, Center, Text, Flex } from "@chakra-ui/react";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 gsap.registerPlugin(ScrollTrigger);
